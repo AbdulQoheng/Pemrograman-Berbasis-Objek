@@ -12,36 +12,33 @@ package Praktikum;
 public class mainpraktikum1 {
     public static void main(String[] args) {
         Praktikum1 ob = new Praktikum1();
+//        Data pertama
+      ob.setBenda("Bolpoint");
+      ob.setStok(10);
+      ob.setHarga_satuan(2000);
+      ob.setHarga();
+      ob.setTotal();
+      ob.cetak();
+      
+//      Data kedua
+
+      ob.setBenda("Pensil");
+      ob.setStok(10);
+      ob.setHarga_satuan(1000);
+      ob.setHarga();
+      ob.setTotal();
+      ob.cetak();
+      
+//      Data ketiga
         
-        ob.Bolpoint();
-        ob.setStokBolpoint(10);
-        ob.setHargasatuanBolpoint(2000);
-        ob.cetak("Stok : "+ob.getStokBolpoint());
-        ob.cetak("Harga Satuan : "+ob.getHargasatuanBolpoint());
-        ob.cetak("Harga Bolpoint : "+ ob.hargaBolpoint());
-        
-        ob.cetak("");
-        
-        ob.Pensil();
-        ob.setStokpensil(10);
-        ob.setHargasatuanpensil(1000);
-        ob.cetak("Stok : "+ob.getStokpensil());
-        ob.cetak("Harga Satuan : "+ob.getHargasatuanpensil());
-        ob.cetak("Harga Pensil : "+ ob.hargapensil());
-        
-        ob.cetak("");
-        
-        ob.Penghapus();
-        ob.setStokPenghapus(10);
-        ob.setHargasatuanPenghapus(500);
-        ob.cetak("Stok : "+ob.getStokPenghapus());
-        ob.cetak("Harga Satuan : "+ob.getHargasatuanPenghapus());
-        ob.cetak("Harga Penghapus : "+ ob.hargaPenghapus());
-    
-        ob.cetak("");
-        
-        ob.cetak("Harga Total : "+ob.total());
-        
+      ob.setBenda("Penghapus");
+      ob.setStok(10);
+      ob.setHarga_satuan(500);
+      ob.setHarga();
+      ob.setTotal();
+      ob.cetak();
+      
+      ob.cetaktotal();
     }
     
 }

@@ -11,96 +11,62 @@ package Praktikum;
  */
 public class Praktikum1 {
     private String benda;
-    private int stokbolpoint, hargasatuanbolpoint, hargabolpoint;
-    private int stokpensil, hargasatuanpensil, hargapensil;
-    private int stokpenghapus, hargasatuanpenghapus, hargapenghapus;
-    
-    public void cetak(String str){
-        System.out.println(str);
+    private int Stok, Harga_satuan, Harga, Total;
+
+    public String getBenda() {
+        return benda;
+    }
+
+    public void setBenda(String benda) {
+        this.benda = benda;
+    }
+
+    public int getStok() {
+        return Stok;
+    }
+
+    public void setStok(int Stok) {
+        this.Stok = Stok;
+    }
+
+    public int getHarga_satuan() {
+        return Harga_satuan;
+    }
+
+    public void setHarga_satuan(int Harga_satuan) {
+        this.Harga_satuan = Harga_satuan;
+    }
+
+    public int getHarga() {
+        return Harga;
+    }
+
+    public void setHarga() {
+        this.Harga = Stok * Harga_satuan;
+    }
+
+    public int getTotal() {
+        return Total;
+    }
+
+    public void setTotal() {
+        this.Total += Harga;
     }
     
-    public void Bolpoint(){
-        System.out.println("Nama Alat Tulis : Bolpoint");
+    public void cetak(){
+        System.out.println("Nama Alat Tulis     : "+getBenda());
+        System.out.println("Stok                : "+getStok());
+        System.out.println("Harga Satuan        : "+getHarga_satuan());
+        System.out.println("Harga "+getBenda()+"    : "+getHarga());
+        System.out.println("");
+        System.out.println("");
     }
     
-    public void setStokBolpoint(int stok){
-        this.stokbolpoint = stok;
+    public void cetaktotal(){
+        System.out.println("Total Harga     : "+getTotal());
     }
     
-    public int getStokBolpoint(){
-        return stokbolpoint;
-    }
     
-    public void setHargasatuanBolpoint(int satuan){
-        this.hargasatuanbolpoint = satuan;
-    }
-    
-    public int getHargasatuanBolpoint(){
-        return hargasatuanbolpoint;
-    }
-    
-    public int hargaBolpoint(){
-        int totalhargabolpoint = stokbolpoint * hargasatuanbolpoint;
-        this.hargabolpoint = totalhargabolpoint;
-        return totalhargabolpoint;
-    }
-    
-    public void Pensil(){
-        System.out.println("Nama Alat Tulis : Pensil");
-    }
-    
-    public void setStokpensil(int stok){
-        this.stokpensil = stok;
-    }
-    
-    public int getStokpensil(){
-        return stokpensil;
-    }
-    
-    public void setHargasatuanpensil(int satuan){
-        this.hargasatuanpensil = satuan;
-    }
-    
-    public int getHargasatuanpensil(){
-        return hargasatuanpensil;
-    }
-    
-    public int hargapensil(){
-        int totalhargapensil = stokpensil * hargasatuanpensil;
-        this.hargapensil = totalhargapensil;
-        return totalhargapensil;
-    }
-    
-    public void Penghapus(){
-        System.out.println("Nama Alat Tulis : Penghapus");
-    }
-    
-    public void setStokPenghapus(int stok){
-        this.stokpenghapus = stok;
-    }
-    
-    public int getStokPenghapus(){
-        return stokpenghapus;
-    }
-    
-    public void setHargasatuanPenghapus(int satuan){
-        this.hargasatuanpenghapus = satuan;
-    }
-    
-    public int getHargasatuanPenghapus(){
-        return hargasatuanpenghapus;
-    }
-    
-    public int hargaPenghapus(){
-        int totalhargapenghapus = stokpenghapus * hargasatuanpenghapus;
-        this.hargapenghapus = totalhargapenghapus;
-        return totalhargapenghapus;
-    }
-    
-    public int total(){
-        int total = hargabolpoint + hargapensil + hargapenghapus;
-        return total;
-    }
             
     
     
