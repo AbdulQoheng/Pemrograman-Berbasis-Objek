@@ -57,7 +57,7 @@ public class Praktikum1 {
         System.out.println("Nama Alat Tulis     : "+getBenda());
         System.out.println("Stok                : "+getStok());
         System.out.println("Harga Satuan        : "+getHarga_satuan());
-        System.out.println("Harga "+getBenda()+"    : "+getHarga());
+        System.out.println("Harga  "+getBenda()+"    : "+getHarga());
         System.out.println("");
         System.out.println("");
     }

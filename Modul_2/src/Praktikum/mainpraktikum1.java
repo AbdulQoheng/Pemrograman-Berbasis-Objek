@@ -12,6 +12,7 @@ package Praktikum;
 public class mainpraktikum1 {
     public static void main(String[] args) {
         Praktikum1 ob = new Praktikum1();
+        
 //        Data pertama
       ob.setBenda("Bolpoint");
       ob.setStok(10);
