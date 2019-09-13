@@ -17,8 +17,8 @@ public class mainpraktikum1 {
       ob.setBenda("Bolpoint");
       ob.setStok(10);
       ob.setHarga_satuan(2000);
-      ob.setHarga();
-      ob.setTotal();
+      ob.setHarga(ob.getStok(), ob.getHarga_satuan());
+      ob.setTotal(ob.getHarga());
       ob.cetak();
       
 //      Data kedua
@@ -26,8 +26,8 @@ public class mainpraktikum1 {
       ob.setBenda("Pensil");
       ob.setStok(10);
       ob.setHarga_satuan(1000);
-      ob.setHarga();
-      ob.setTotal();
+      ob.setHarga(ob.getStok(), ob.getHarga_satuan());
+      ob.setTotal(ob.getHarga());
       ob.cetak();
       
 //      Data ketiga
@@ -35,8 +35,8 @@ public class mainpraktikum1 {
       ob.setBenda("Penghapus");
       ob.setStok(10);
       ob.setHarga_satuan(500);
-      ob.setHarga();
-      ob.setTotal();
+      ob.setHarga(ob.getStok(), ob.getHarga_satuan());
+      ob.setTotal(ob.getHarga());
       ob.cetak();
       
       ob.cetaktotal();

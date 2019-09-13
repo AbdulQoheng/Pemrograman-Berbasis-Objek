@@ -41,7 +41,9 @@ public class Praktikum1 {
         return Harga;
     }
 
-    public void setHarga() {
+    public void setHarga(int Stok , int Harga_satuan) {
+        this.Stok = Stok;
+        this.Harga_satuan = Harga_satuan;
         this.Harga = Stok * Harga_satuan;
     }
 
@@ -49,7 +51,8 @@ public class Praktikum1 {
         return Total;
     }
 
-    public void setTotal() {
+    public void setTotal(int Harga) {
+        this.Harga  = Harga;
         this.Total += Harga;
     }
     
