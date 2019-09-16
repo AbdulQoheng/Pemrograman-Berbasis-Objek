@@ -27,21 +27,8 @@ public class MainLatihan_1 {
         ob.cetak("Nilai -3 di Index = ");
         ob.cetakindex(ob.getCari());
         ob.cetak("");
-        
 
-//        int i;
-//        Max=bilangan[0];
-//        for (i = 0; i<5;i++ ){
-//            
-//            if (Max < bilangan[i]){
-//                Max = bilangan[i];
-//                System.out.println(Max);
-////                System.out.println("asdfa");
-//            }
-//        }
-        
-
-        
+                
     }
     
 }
