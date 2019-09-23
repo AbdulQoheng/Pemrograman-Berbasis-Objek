@@ -26,9 +26,15 @@ public class MainLatihan_1 {
         ob.setCari(-3);
         ob.cetak("Nilai -3 di Index = ");
         ob.cetakindex(ob.getCari());
+<<<<<<< HEAD
         ob.cetak("");
 
                 
+=======
+        ob.cetak("");    
+        
+        
+>>>>>>> 53b8c8da6775f90c1b2c3c58fb3bd0a3b1b48dfc
     }
     
 }
