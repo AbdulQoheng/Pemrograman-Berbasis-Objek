@@ -83,4 +83,11 @@ public class Latihan_2 {
             }
         }
     }
+    
+    public void hapus() {
+        bilangan = null;
+        ubahnilai = null;
+        perkalian = null;
+        
+    }
 }

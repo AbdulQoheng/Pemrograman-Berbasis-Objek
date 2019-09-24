@@ -117,5 +117,13 @@ public class Latihan_1 {
             }
         }
     }
+    
+    public void hapus() {
+        bilangan = null;
+        rata = 0;
+        index = null;
+        Max = 0;
+        Min = 0;
+    }
 
 }

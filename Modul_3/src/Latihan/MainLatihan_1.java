@@ -27,6 +27,8 @@ public class MainLatihan_1 {
         ob.tampil("Index yang di cari");
         ob.setIndex(A, -3);
         ob.tampil(ob.getIndex());
+        ob.hapus();
+        
     }
     
 }

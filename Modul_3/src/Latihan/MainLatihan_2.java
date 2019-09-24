@@ -24,6 +24,7 @@ public class MainLatihan_2 {
         ob.tampil("Nilai yang telah di kalikan");
         ob.setPerkalian(ob.getUbahniali(), 0.5);
         ob.tampil(ob.getPerkalian());
+        ob.hapus();
     }
     
 }
