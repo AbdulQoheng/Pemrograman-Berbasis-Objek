@@ -13,7 +13,7 @@ public class MainLatihan_2 {
     public static void main(String[] args) {
         Latihan_2 ob = new Latihan_2();
         
-        double A[]={2,5,3,5,9,5};
+        int A[]={2,5,3,5,9,5};
         
         ob.tampil("nilai awal :");
         ob.setBilangan(A);

@@ -10,24 +10,24 @@ package Latihan;
  * @author qoheng
  */
 public class Latihan_2 {
-    private double bilangan[];
-    private double ubahnilai[];
+    private int bilangan[];
+    private int ubahnilai[];
     private double perkalian[];
 
-    public double[] getBilangan() {
+    public int[] getBilangan() {
         return bilangan;
     }
 
-    public void setBilangan(double[] bilangan) {
+    public void setBilangan(int[] bilangan) {
         this.bilangan = bilangan;
     }
 
 
-    public double[] getUbahniali() {
+    public int[] getUbahniali() {
         return ubahnilai;
     }
 
-    public void setUbahnilai(double a[], double cari, double ubah) {
+    public void setUbahnilai(int a[], int cari, int ubah) {
         ubahnilai=a;
         for (int i = 0; i < a.length; i++) {
             if (a[i] == cari) {
@@ -40,10 +40,10 @@ public class Latihan_2 {
         return perkalian;
     }
 
-    public void setPerkalian(double a[], double nilai) {
-        perkalian=a;
+    public void setPerkalian(int a[], double nilai) {
+        perkalian=new double[a.length];
         for (int i = 0; i < a.length; i++) {
-            perkalian[i] = a[i]*nilai;
+            perkalian[i] = (double)a[i] * nilai;
             
         }
     }
@@ -59,6 +59,22 @@ public class Latihan_2 {
         System.out.println(a);
     }
 
+    public void tampil(int a[]) {
+        String data = "";
+        for (int i = 0; i < a.length; i++) {
+
+            if (i == 0) {
+                data += a[i];
+            } else {
+                data += " ," + a[i];
+            }
+        }
+        System.out.println(data);
+
+        a = null;
+        data = null;
+    }
+    
     public void tampil(double a[]) {
         String data = "";
         for (int i = 0; i < a.length; i++) {
