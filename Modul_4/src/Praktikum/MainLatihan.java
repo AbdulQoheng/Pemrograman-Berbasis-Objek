@@ -15,8 +15,8 @@ public class MainLatihan {
 
         Latihan ob = new Latihan();
 
-        double A[][] = {{1, 2}, {3, 5}, {6, 7}};
-        double B[][] = {{8, 9}, {10, 11}, {12, 13}};
+        int A[][] = {{1, 2}, {3, 5}, {6, 7}};
+        int B[][] = {{8, 9}, {10, 11}, {12, 13}};
 
         ob.tampil("Matrix A :");
         ob.setMatrikA(A);
@@ -32,6 +32,9 @@ public class MainLatihan {
         ob.tampil("");
         ob.setPerkalian(ob.getPenjumlahan(), 0.5);
         ob.tampil(ob.getPerkalian());
+        ob.hapus();
+        A = null;
+        B = null;
 
     }
 }
