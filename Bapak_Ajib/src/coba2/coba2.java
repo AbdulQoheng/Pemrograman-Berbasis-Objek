@@ -95,8 +95,8 @@ public class coba2 {
     }
     
     public void hapus() {
-        nilai = null;
-        penjumlahan = null;
+        nilai = 0;
+        penjumlahan = 0;
         cariindex = null;
         ganjilgenap = null;
         
