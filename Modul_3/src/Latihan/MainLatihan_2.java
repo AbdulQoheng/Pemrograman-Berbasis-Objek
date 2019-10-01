@@ -25,6 +25,7 @@ public class MainLatihan_2 {
         ob.setPerkalian(ob.getUbahniali(), 0.5);
         ob.tampil(ob.getPerkalian());
         ob.hapus();
+        A = null;
     }
     
 }
