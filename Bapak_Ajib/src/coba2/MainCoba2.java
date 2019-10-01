@@ -31,5 +31,8 @@ public class MainCoba2 {
         ob.tampil("");
         ob.setGanjilgenap(A);
         ob.tampil(ob.getGanjilgenap());
+        
+        ob.hapus();
+        A = null;
     }
 }
