@@ -94,4 +94,11 @@ public class coba2 {
         }
     }
     
+    public void hapus() {
+        nilai = null;
+        penjumlahan = null;
+        cariindex = null;
+        ganjilgenap = null;
+        
+    }
 }
