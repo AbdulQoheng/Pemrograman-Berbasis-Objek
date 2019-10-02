@@ -12,6 +12,7 @@ package coba2;
 public class coba2 {
     private int[][] nilai;
     private int[][] penjumlahan;
+    private double[][] perkalian;
     private String[][] cariindex;
     private String[][] ganjilgenap;
     
@@ -38,6 +39,21 @@ public class coba2 {
             
         }
     }
+    
+    public int[][] getPerkalian() {
+        return perkalian;
+    }
+
+    public void setPerkalian(int a[][], double nilai) {
+        perkalian = new double[a.length][a[0].length];
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                perkalian[i][j] = a[i][j] * nilai;
+            }
+            
+        }
+    }
+    
 
     public String[][] getCariindex() {
         return cariindex;
