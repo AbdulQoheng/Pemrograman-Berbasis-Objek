@@ -31,7 +31,9 @@ public class MainCoba2 {
         ob.tampil("");
         ob.setGanjilgenap(A);
         ob.tampil(ob.getGanjilgenap());
-        
+        ob.tampil("Mencari Perkalian");
+        ob.setPerkalian(A);
+        ob.tampil(ob.getPerkalian());
         ob.hapus();
         A = null;
     }
