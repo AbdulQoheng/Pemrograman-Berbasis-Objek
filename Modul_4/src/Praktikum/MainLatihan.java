@@ -32,6 +32,8 @@ public class MainLatihan {
         ob.tampil("");
         ob.setPerkalian(ob.getPenjumlahan(), 0.5);
         ob.tampil(ob.getPerkalian());
+        ob.setPengurangan(A,B);
+        ob.tampil(ob.getPengurangan());
         ob.hapus();
         A = null;
         B = null;
