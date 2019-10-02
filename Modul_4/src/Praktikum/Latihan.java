@@ -13,6 +13,7 @@ public class Latihan {
     private int MatrikA[][];
     private int MatrikB[][];
     private int penjumlahan[][];
+    private int pengurangan[][];
     private double perkalian[][];
 
     public int[][] getMatrikA() {
@@ -40,6 +41,19 @@ public class Latihan {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
                 penjumlahan[i][j] = a[i][j] + b[i][j];
+            }
+        }
+    }
+    
+    public int[][] getPengurangan() {
+        return pengurangan;
+    }
+
+    public void setPengurangan(int a[][], int b[][]) {
+        pengurangan=a;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                pengurangan[i][j] = a[i][j] - b[i][j];
             }
         }
     }
